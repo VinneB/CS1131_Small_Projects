@@ -3,7 +3,7 @@ package Week_11_Program;
 import java.util.LinkedList;
 
 public class GenericQueue <E> implements QueueInterface<E>{
-    LinkedList<E> queue;
+    GenericLinkedList<E> queue;
     int maxNumElements = -1;
 
     public GenericQueue(int maxNumElements){
