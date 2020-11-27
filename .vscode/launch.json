@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Week11Program<CS1131_21400050>",
+            "request": "launch",
+            "mainClass": "Week_11_Program.Week11Program",
+            "projectName": "CS1131_21400050",
+            "args": "/home/vinne890/Documents/TestFiles/input1.txt"
+        }
+    ]
+}
